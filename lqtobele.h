@@ -2,7 +2,7 @@
 // This class has been automatically generated on
 // Mon Dec 21 17:36:03 2020 by ROOT version 6.22/06
 // from TTree tree/Reduced Skim
-// found on file: LQToBEle_M-500_pair_pythia8_0_rsk.root
+// found on file: LQToBEle_M-500_pair_pythia8_0_rsk.root. If need to change to other mass points, please replace "500" in line 731, 733, 735 by other mass point value.
 //////////////////////////////////////////////////////////
 
 #ifndef lqtobele_h
@@ -723,7 +723,7 @@ public :
 #endif
 
 #ifdef lqtobele_cxx
-lqtobele::lqtobele(TTree *tree) : fChain(0) 
+lqtobele::lqtobele(TTree *tree) : fChain(0)
 {
 // if parameter tree is not specified (or zero), connect the file
 // used to generate this class and read the Tree.
