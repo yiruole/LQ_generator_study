@@ -2,7 +2,7 @@
 // This class has been automatically generated on
 // Mon Dec 21 17:38:51 2020 by ROOT version 6.22/06
 // from TTree tree/Reduced Skim
-// found on file: LQToUE_M-500_BetaOne_pythia8_0_rsk.root
+// found on file: LQToUE_M-500_BetaOne_pythia8_0_rsk.root. If need to change to other mass points, please replace "500" in line 731, 733, 735 by other mass point value.
 //////////////////////////////////////////////////////////
 
 #ifndef lqtoue_h
@@ -723,7 +723,7 @@ public :
 #endif
 
 #ifdef lqtoue_cxx
-lqtoue::lqtoue(TTree *tree) : fChain(0) 
+lqtoue::lqtoue(TTree *tree) : fChain(0)
 {
 // if parameter tree is not specified (or zero), connect the file
 // used to generate this class and read the Tree.
