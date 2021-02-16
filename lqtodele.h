@@ -732,7 +732,7 @@ lqtodele::lqtodele(TTree *tree) : fChain(0)
        TFile *f = _file0;
     //  if (!f || !f->IsOpen()) {
      //    f = new TFile("LQToDEle_M-500_pair_pythia8_0_rsk.root");
-      }
+ //     }
      // TDirectory * dir = (TDirectory*)f->Get("LQToDEle_M-500_pair_pythia8_0_rsk.root:/rootTupleTree");
     TDirectory * dir = (TDirectory*)f->Get("rootTupleTree");
       dir->GetObject("tree",tree);
